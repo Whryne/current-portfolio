@@ -1,0 +1,97 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header" >
+        <h1 id="title" class="text-center">Survey Form</h1>
+        <p id="description" class="description text-center">Thank you for taking the time to help us improve the platform.
+        </p>
+      </header>
+    <main>
+      <form id="survey-form">
+        <div class="form group">
+          <label for="name" id="name-label">Please enter name: </label>
+          <input id="name" type="text" placeholder="BigMamaNe" required>
+        </div>
+        <div class="form group">
+          <label for="email" id="email-label">Please enter your email: </label>
+          <input id="email" type="email" placeholder="bigmama@ne.com" required>
+        </div>
+        <div class="form group">
+          <label for="number" id="number-label">Please enter your age: </label>
+         <input id="number" type="number" min="5" max="100" placeholder="age" required>
+        </div>
+        <div class="form group">
+          <label for="dropdown">Something or Other:</label>
+          <select id="dropdown">
+            <option> Something here</option>
+            <option> other thing here</option>
+          </select>
+        </div>
+        <div class="form group">
+          <label>This or That:</label>
+          <input type="radio" name="radio-group" id="this" value="0">
+          <label for="this">This</label>
+          <input type="radio" name="radio-group" id="that" value="1">
+          <label for="that">That</label>
+        </div>
+        <div class="form group">
+          <label>What or Where:</label>
+          <input type="checkbox" value="0" id="what">
+          <label for="">What</label>
+          <input type="checkbox" id="where" value="1">
+          <label for="where">Where</label>
+        </div>
+        <textarea>Say what you need to say!</textarea>
+<hr>
+        <input id="submit" type="submit">
+  
+  
+  
+     </form>
+    </main>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/*
+body{
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  color: white;
+  margin: 0;
+}*/
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/*:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}*/
+
+
+
+** end of undefined **
+
